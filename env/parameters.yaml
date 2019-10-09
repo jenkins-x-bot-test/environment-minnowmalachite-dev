@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:minnowmalachite/adminUser:password
+  username: admin
+dashboardAuthID: vault:minnowmalachite:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:minnowmalachite:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:minnowmalachite/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:minnowmalachite/prow:hmacToken
